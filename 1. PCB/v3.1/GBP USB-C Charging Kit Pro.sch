@@ -141,6 +141,7 @@
 <layer number="159" name="Geh-Bear2" color="7" fill="1" visible="no" active="no"/>
 <layer number="160" name="Topologie" color="7" fill="1" visible="no" active="no"/>
 <layer number="161" name="tomplace2" color="7" fill="1" visible="no" active="no"/>
+<layer number="162" name="RemovedThings" color="12" fill="11" visible="yes" active="yes"/>
 <layer number="166" name="AntennaArea" color="7" fill="1" visible="no" active="no"/>
 <layer number="168" name="4mmHeightArea" color="7" fill="1" visible="no" active="no"/>
 <layer number="188" name="Graphics" color="15" fill="1" visible="yes" active="yes"/>
@@ -348,31 +349,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-6.25" y1="-6.95" x2="-6.25" y2="-4.5" width="0.127" layer="48"/>
 <wire x1="6.25" y1="-6.95" x2="6.25" y2="-4.5" width="0.127" layer="48"/>
 <wire x1="-4.318" y1="-1.1" x2="-4.318" y2="-2.7" width="0.01" layer="51"/>
-<polygon width="0.01" layer="31">
-<vertex x="-4.8568" y="-2.2042"/>
-<vertex x="-4.8568" y="-1.6042" curve="-90"/>
-<vertex x="-4.326" y="-1.0542" curve="-90"/>
-<vertex x="-3.7552" y="-1.6558"/>
-<vertex x="-3.7552" y="-2.2558" curve="-90"/>
-<vertex x="-4.276" y="-2.7558" curve="-90"/>
-</polygon>
 <polygon width="0.01" layer="29">
-<vertex x="-4.91" y="-2.205"/>
-<vertex x="-4.91" y="-1.605" curve="-90"/>
+<vertex x="-4.9354" y="-2.205"/>
+<vertex x="-4.9354" y="-1.605" curve="-90"/>
 <vertex x="-4.31" y="-1" curve="-90"/>
 <vertex x="-3.71" y="-1.605"/>
 <vertex x="-3.71" y="-2.205" curve="-90"/>
 <vertex x="-4.31" y="-2.8" curve="-90"/>
 </polygon>
 <pad name="SHLD3" x="-4.318" y="-1.9" drill="0.4" diameter="0.6" rot="R90" stop="no"/>
-<polygon width="0.01" layer="16">
-<vertex x="-4.316" y="-2.745721875" curve="90"/>
-<vertex x="-3.770278125" y="-2.2"/>
-<vertex x="-3.770278125" y="-1.6" curve="90"/>
-<vertex x="-4.316" y="-1.05428125" curve="90"/>
-<vertex x="-4.861721875" y="-1.6"/>
-<vertex x="-4.861721875" y="-2.2" curve="90"/>
-</polygon>
 <polygon width="0.01" layer="1">
 <vertex x="-3.77428125" y="-1.6"/>
 <vertex x="-3.77428125" y="-2.2" curve="-90"/>
@@ -385,31 +370,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="4.314" y1="-1.1" x2="4.314" y2="-2.7" width="0.01" layer="51"/>
 <wire x1="4.014" y1="-1.9" x2="4.614" y2="-1.9" width="0.01" layer="48"/>
 <wire x1="4.32" y1="-1.608" x2="4.32" y2="-2.192" width="0.01" layer="48"/>
-<polygon width="0.01" layer="31">
-<vertex x="3.7812" y="-2.2042"/>
-<vertex x="3.7812" y="-1.6042" curve="-90"/>
-<vertex x="4.312" y="-1.0542" curve="-90"/>
-<vertex x="4.8828" y="-1.6558"/>
-<vertex x="4.8828" y="-2.2558" curve="-90"/>
-<vertex x="4.362" y="-2.7558" curve="-90"/>
-</polygon>
 <polygon width="0.01" layer="29">
-<vertex x="3.728" y="-2.205"/>
-<vertex x="3.728" y="-1.605" curve="-90"/>
+<vertex x="3.7026" y="-2.205"/>
+<vertex x="3.7026" y="-1.605" curve="-90"/>
 <vertex x="4.328" y="-1" curve="-90"/>
 <vertex x="4.928" y="-1.605"/>
 <vertex x="4.928" y="-2.205" curve="-90"/>
 <vertex x="4.328" y="-2.8" curve="-90"/>
 </polygon>
 <pad name="SHLD4" x="4.32" y="-1.9" drill="0.4" diameter="0.6" rot="R90" stop="no"/>
-<polygon width="0.01" layer="16">
-<vertex x="4.322" y="-2.745721875" curve="90"/>
-<vertex x="4.867721875" y="-2.2"/>
-<vertex x="4.867721875" y="-1.6" curve="90"/>
-<vertex x="4.322" y="-1.05428125" curve="90"/>
-<vertex x="3.776278125" y="-1.6"/>
-<vertex x="3.776278125" y="-2.2" curve="90"/>
-</polygon>
 <polygon width="0.01" layer="1">
 <vertex x="4.86371875" y="-1.6"/>
 <vertex x="4.86371875" y="-2.2" curve="-90"/>
@@ -422,31 +391,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-4.324" y1="2.7" x2="-4.324" y2="1.1" width="0.01" layer="51"/>
 <wire x1="-4.624" y1="1.9" x2="-4.024" y2="1.9" width="0.01" layer="48"/>
 <wire x1="-4.318" y1="2.192" x2="-4.318" y2="1.608" width="0.01" layer="48"/>
-<polygon width="0.01" layer="31">
-<vertex x="-4.8568" y="1.5958"/>
-<vertex x="-4.8568" y="2.1958" curve="-90"/>
-<vertex x="-4.326" y="2.7458" curve="-90"/>
-<vertex x="-3.7552" y="2.1442"/>
-<vertex x="-3.7552" y="1.5442" curve="-90"/>
-<vertex x="-4.276" y="1.0442" curve="-90"/>
-</polygon>
 <polygon width="0.01" layer="29">
-<vertex x="-4.91" y="1.595"/>
-<vertex x="-4.91" y="2.195" curve="-90"/>
+<vertex x="-4.9354" y="1.595"/>
+<vertex x="-4.9354" y="2.195" curve="-90"/>
 <vertex x="-4.31" y="2.8" curve="-90"/>
 <vertex x="-3.71" y="2.195"/>
 <vertex x="-3.71" y="1.595" curve="-90"/>
 <vertex x="-4.31" y="1" curve="-90"/>
 </polygon>
 <pad name="SHLD1" x="-4.318" y="1.9" drill="0.4" diameter="0.6" rot="R90" stop="no"/>
-<polygon width="0.01" layer="16">
-<vertex x="-4.316" y="1.054278125" curve="90"/>
-<vertex x="-3.770278125" y="1.6"/>
-<vertex x="-3.770278125" y="2.2" curve="90"/>
-<vertex x="-4.316" y="2.74571875" curve="90"/>
-<vertex x="-4.861721875" y="2.2"/>
-<vertex x="-4.861721875" y="1.6" curve="90"/>
-</polygon>
 <polygon width="0.01" layer="1">
 <vertex x="-3.77428125" y="2.2"/>
 <vertex x="-3.77428125" y="1.6" curve="-90"/>
@@ -459,31 +412,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="4.314" y1="2.7" x2="4.314" y2="1.1" width="0.01" layer="51"/>
 <wire x1="4.014" y1="1.9" x2="4.614" y2="1.9" width="0.01" layer="48"/>
 <wire x1="4.32" y1="2.192" x2="4.32" y2="1.608" width="0.01" layer="48"/>
-<polygon width="0.01" layer="31">
-<vertex x="3.7812" y="1.5958"/>
-<vertex x="3.7812" y="2.1958" curve="-90"/>
-<vertex x="4.312" y="2.7458" curve="-90"/>
-<vertex x="4.8828" y="2.1442"/>
-<vertex x="4.8828" y="1.5442" curve="-90"/>
-<vertex x="4.362" y="1.0442" curve="-90"/>
-</polygon>
 <polygon width="0.01" layer="29">
-<vertex x="3.728" y="1.595"/>
-<vertex x="3.728" y="2.195" curve="-90"/>
+<vertex x="3.7026" y="1.595"/>
+<vertex x="3.7026" y="2.195" curve="-90"/>
 <vertex x="4.328" y="2.8" curve="-90"/>
 <vertex x="4.928" y="2.195"/>
 <vertex x="4.928" y="1.595" curve="-90"/>
 <vertex x="4.328" y="1" curve="-90"/>
 </polygon>
 <pad name="SHLD2" x="4.32" y="1.9" drill="0.4" diameter="0.6" rot="R90" stop="no"/>
-<polygon width="0.01" layer="16">
-<vertex x="4.322" y="1.054278125" curve="90"/>
-<vertex x="4.867721875" y="1.6"/>
-<vertex x="4.867721875" y="2.2" curve="90"/>
-<vertex x="4.322" y="2.74571875" curve="90"/>
-<vertex x="3.776278125" y="2.2"/>
-<vertex x="3.776278125" y="1.6" curve="90"/>
-</polygon>
 <polygon width="0.01" layer="1">
 <vertex x="4.86371875" y="2.2"/>
 <vertex x="4.86371875" y="1.6" curve="-90"/>
@@ -493,6 +430,70 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="4.318" y="2.74571875" curve="-90"/>
 </polygon>
 <wire x1="4.324" y1="2.215" x2="4.324" y2="1.595" width="0.6" layer="46"/>
+<polygon width="0.01" layer="16">
+<vertex x="-3.77428125" y="2.2"/>
+<vertex x="-3.77428125" y="1.6" curve="-90"/>
+<vertex x="-4.32" y="1.054278125" curve="-90"/>
+<vertex x="-4.86571875" y="1.6"/>
+<vertex x="-4.86571875" y="2.2" curve="-90"/>
+<vertex x="-4.32" y="2.74571875" curve="-90"/>
+</polygon>
+<polygon width="0.01" layer="16">
+<vertex x="4.86371875" y="2.2"/>
+<vertex x="4.86371875" y="1.6" curve="-90"/>
+<vertex x="4.318" y="1.054278125" curve="-90"/>
+<vertex x="3.77228125" y="1.6"/>
+<vertex x="3.77228125" y="2.2" curve="-90"/>
+<vertex x="4.318" y="2.74571875" curve="-90"/>
+</polygon>
+<polygon width="0.01" layer="16">
+<vertex x="4.86371875" y="-1.6"/>
+<vertex x="4.86371875" y="-2.2" curve="-90"/>
+<vertex x="4.318" y="-2.745721875" curve="-90"/>
+<vertex x="3.77228125" y="-2.2"/>
+<vertex x="3.77228125" y="-1.6" curve="-90"/>
+<vertex x="4.318" y="-1.05428125" curve="-90"/>
+</polygon>
+<polygon width="0.01" layer="16">
+<vertex x="-3.77428125" y="-1.6"/>
+<vertex x="-3.77428125" y="-2.2" curve="-90"/>
+<vertex x="-4.32" y="-2.745721875" curve="-90"/>
+<vertex x="-4.86571875" y="-2.2"/>
+<vertex x="-4.86571875" y="-1.6" curve="-90"/>
+<vertex x="-4.32" y="-1.05428125" curve="-90"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-3.77428125" y="2.2"/>
+<vertex x="-3.77428125" y="1.6" curve="-90"/>
+<vertex x="-4.32" y="1.054278125" curve="-90"/>
+<vertex x="-4.86571875" y="1.6"/>
+<vertex x="-4.86571875" y="2.2" curve="-90"/>
+<vertex x="-4.32" y="2.74571875" curve="-90"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-3.77428125" y="-1.6"/>
+<vertex x="-3.77428125" y="-2.2" curve="-90"/>
+<vertex x="-4.32" y="-2.745721875" curve="-90"/>
+<vertex x="-4.86571875" y="-2.2"/>
+<vertex x="-4.86571875" y="-1.6" curve="-90"/>
+<vertex x="-4.32" y="-1.05428125" curve="-90"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="4.86371875" y="-1.6"/>
+<vertex x="4.86371875" y="-2.2" curve="-90"/>
+<vertex x="4.318" y="-2.745721875" curve="-90"/>
+<vertex x="3.77228125" y="-2.2"/>
+<vertex x="3.77228125" y="-1.6" curve="-90"/>
+<vertex x="4.318" y="-1.05428125" curve="-90"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="4.86371875" y="2.2"/>
+<vertex x="4.86371875" y="1.6" curve="-90"/>
+<vertex x="4.318" y="1.054278125" curve="-90"/>
+<vertex x="3.77228125" y="1.6"/>
+<vertex x="3.77228125" y="2.2" curve="-90"/>
+<vertex x="4.318" y="2.74571875" curve="-90"/>
+</polygon>
 </package>
 <package name="JST-2-1.25MM-SMD_RIGHT">
 <wire x1="-3.268" y1="2.553" x2="3.268" y2="2.553" width="0.127" layer="51"/>
@@ -544,6 +545,26 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-2.198996875" y="1.016" size="1.016" layer="21" font="vector" ratio="18" rot="SR0" align="center-left">C</text>
 <text x="-2.325996875" y="0" size="1.016" layer="22" font="vector" ratio="18" rot="SMR0" align="center-left">P</text>
 <text x="-2.706996875" y="3.048" size="1.016" layer="22" font="vector" ratio="18" rot="SMR0" align="center-left">P</text>
+<polygon width="0.127" layer="1">
+<vertex x="-2.54" y="1.1811"/>
+<vertex x="-2.8829" y="1.9431"/>
+<vertex x="-3.683" y="1.9431"/>
+<vertex x="-3.683" y="0.127"/>
+<vertex x="-2.54" y="0.127"/>
+</polygon>
+<polygon width="0.127" layer="1">
+<vertex x="-3.683" y="-0.381"/>
+<vertex x="-3.683" y="-1.778" curve="75"/>
+<vertex x="-3.429" y="-2.0828"/>
+<vertex x="-2.54" y="-2.0828"/>
+<vertex x="-2.54" y="-0.381"/>
+</polygon>
+<polygon width="0.127" layer="1">
+<vertex x="-2.413" y="3.4671" curve="128"/>
+<vertex x="-3.683" y="3.4671"/>
+<vertex x="-3.683" y="2.413"/>
+<vertex x="-2.413" y="2.413"/>
+</polygon>
 </package>
 <package name="JST-2-1MM-SMD_RIGHT">
 <wire x1="-2" y1="2.553" x2="2" y2="2.553" width="0.127" layer="51"/>
@@ -561,6 +582,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-0.762" y1="-0.762" x2="-0.254" y2="-0.762" width="0.127" layer="51"/>
 <wire x1="-0.508" y1="-0.508" x2="-0.508" y2="-1.016" width="0.127" layer="51"/>
 <text x="0" y="0.508" size="0.6096" layer="25" font="vector" ratio="20" align="center">&gt;NAME</text>
+<text x="-0.9525" y="-1.3716" size="0.508" layer="51" rot="R90">RED</text>
 </package>
 <package name="L0402">
 <smd name="A" x="0.5673" y="0" dx="0.5588" dy="0.50038125" layer="1" rot="R180"/>
@@ -632,6 +654,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="1" x="-0.6943" y="0" dx="0.635" dy="0.9" layer="1"/>
 <smd name="2" x="0.6943" y="0" dx="0.635" dy="0.9" layer="1"/>
 <text x="0" y="0" size="0.6096" layer="51" font="vector" ratio="12" align="center">&gt;NAME</text>
+<wire x1="-1.2" y1="0.6246" x2="1.2" y2="0.6246" width="0.0508" layer="39"/>
+<wire x1="1.2" y1="0.6246" x2="1.2" y2="-0.6246" width="0.0508" layer="39"/>
+<wire x1="1.2" y1="-0.6246" x2="-1.2" y2="-0.6246" width="0.0508" layer="39"/>
+<wire x1="-1.2" y1="-0.6246" x2="-1.2" y2="0.6246" width="0.0508" layer="39"/>
 </package>
 <package name="R0402">
 <wire x1="-1.00188125" y1="0.40361875" x2="1.001878125" y2="0.40361875" width="0.1016" layer="21"/>
@@ -641,6 +667,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="1" x="-0.5673" y="0" dx="0.5588" dy="0.50038125" layer="1"/>
 <smd name="2" x="0.5673" y="0" dx="0.5588" dy="0.50038125" layer="1"/>
 <text x="0" y="0" size="0.6096" layer="51" font="vector" ratio="12" align="center">&gt;NAME</text>
+<wire x1="-1.00188125" y1="0.40361875" x2="1.001878125" y2="0.40361875" width="0.0508" layer="39"/>
+<wire x1="1.001878125" y1="0.40361875" x2="1.001878125" y2="-0.40235" width="0.0508" layer="39"/>
+<wire x1="1.001878125" y1="-0.40235" x2="-1.00188125" y2="-0.40235" width="0.0508" layer="39"/>
+<wire x1="-1.00188125" y1="-0.40235" x2="-1.00188125" y2="0.40361875" width="0.0508" layer="39"/>
 </package>
 <package name="PAD_1.25">
 <pad name="P$1" x="0" y="0" drill="1.25" diameter="2.5"/>
@@ -655,6 +685,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="1.5776" y1="0.72878125" x2="-1.5748" y2="0.72878125" width="0.1524" layer="21"/>
 <wire x1="-1.5748" y1="0.72878125" x2="-1.5748" y2="-0.7264375" width="0.1524" layer="21"/>
 <text x="0" y="0" size="0.6096" layer="51" font="vector" ratio="12" align="center">&gt;NAME</text>
+<wire x1="-1.5748" y1="-0.7264375" x2="1.5776" y2="-0.7264375" width="0.0508" layer="39"/>
+<wire x1="1.5776" y1="-0.7264375" x2="1.5776" y2="0.72878125" width="0.0508" layer="39"/>
+<wire x1="1.5776" y1="0.72878125" x2="-1.5748" y2="0.72878125" width="0.0508" layer="39"/>
+<wire x1="-1.5748" y1="0.72878125" x2="-1.5748" y2="-0.7264375" width="0.0508" layer="39"/>
 </package>
 <package name="SOLDER_PAD_1.3">
 <smd name="P$1" x="0" y="0" dx="1.3" dy="1.3" layer="1" roundness="100" cream="no"/>
@@ -771,8 +805,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="3" x="0" y="1.1" dx="0.8" dy="0.9" layer="1"/>
 <smd name="2" x="0.95" y="-1.0762" dx="0.8" dy="0.9" layer="1"/>
 <smd name="1" x="-0.95" y="-1.0762" dx="0.8" dy="0.9" layer="1"/>
-<text x="-0.8255" y="1.778" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.016" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
+<text x="0" y="0" size="0.6096" layer="25" font="vector" ratio="12" align="center">&gt;NAME</text>
+<text x="0" y="-2.0955" size="0.508" layer="27" font="vector" align="center">&gt;VALUE</text>
 <rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
 <rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
 <rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
@@ -798,6 +832,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="1" x="-0.5673" y="0" dx="0.5588" dy="0.50038125" layer="1"/>
 <smd name="2" x="0.5673" y="0" dx="0.5588" dy="0.50038125" layer="1"/>
 <text x="0" y="0" size="0.6096" layer="51" font="vector" ratio="12" align="center">&gt;NAME</text>
+<wire x1="-1.00188125" y1="0.40361875" x2="1.001878125" y2="0.40361875" width="0.0508" layer="39"/>
+<wire x1="1.001878125" y1="0.40361875" x2="1.001878125" y2="-0.40235" width="0.0508" layer="39"/>
+<wire x1="1.001878125" y1="-0.40235" x2="-1.00188125" y2="-0.40235" width="0.0508" layer="39"/>
+<wire x1="-1.00188125" y1="-0.40235" x2="-1.00188125" y2="0.40361875" width="0.0508" layer="39"/>
 </package>
 <package name="SLW5020">
 <smd name="P$1" x="-2.275" y="0" dx="2.3" dy="1.4" layer="1" rot="R90"/>
@@ -1171,33 +1209,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="1.905" size="1.27" layer="27" align="center">&gt;VALUE</text>
 <circle x="0" y="0" radius="1.3" width="0.127" layer="39"/>
 </package>
-<package name="C0402">
-<wire x1="-1.2" y1="0.6246" x2="1.2" y2="0.6246" width="0.1524" layer="21"/>
-<wire x1="1.2" y1="0.6246" x2="1.2" y2="-0.6246" width="0.1524" layer="21"/>
-<wire x1="1.2" y1="-0.6246" x2="-1.2" y2="-0.6246" width="0.1524" layer="21"/>
-<wire x1="-1.2" y1="-0.6246" x2="-1.2" y2="0.6246" width="0.1524" layer="21"/>
-<smd name="1" x="-0.6943" y="0" dx="0.635" dy="0.9" layer="1"/>
-<smd name="2" x="0.6943" y="0" dx="0.635" dy="0.9" layer="1"/>
-<text x="0" y="0" size="0.6096" layer="51" font="vector" ratio="12" align="center">&gt;NAME</text>
-</package>
-<package name="C0805">
-<wire x1="-1.778" y1="-0.980440625" x2="1.780040625" y2="-0.980440625" width="0.1524" layer="21"/>
-<wire x1="1.780040625" y1="-0.980440625" x2="1.780040625" y2="0.976" width="0.1524" layer="21"/>
-<wire x1="1.780040625" y1="0.976" x2="-1.778" y2="0.976" width="0.1524" layer="21"/>
-<wire x1="-1.778" y1="0.976" x2="-1.778" y2="-0.980440625" width="0.1524" layer="21"/>
-<smd name="1" x="-1.05" y="0" dx="1.1" dy="1.6" layer="1"/>
-<smd name="2" x="1.05" y="0" dx="1.1" dy="1.6" layer="1"/>
-<text x="0" y="0" size="0.6096" layer="51" font="vector" ratio="12" align="center">&gt;NAME</text>
-</package>
-<package name="C0603">
-<smd name="1" x="-0.9008" y="0" dx="1" dy="1.1" layer="1"/>
-<smd name="2" x="0.9008" y="0" dx="1" dy="1.1" layer="1"/>
-<wire x1="-1.5748" y1="-0.7264375" x2="1.5776" y2="-0.7264375" width="0.1524" layer="21"/>
-<wire x1="1.5776" y1="-0.7264375" x2="1.5776" y2="0.72878125" width="0.1524" layer="21"/>
-<wire x1="1.5776" y1="0.72878125" x2="-1.5748" y2="0.72878125" width="0.1524" layer="21"/>
-<wire x1="-1.5748" y1="0.72878125" x2="-1.5748" y2="-0.7264375" width="0.1524" layer="21"/>
-<text x="0" y="0" size="0.6096" layer="51" font="vector" ratio="12" align="center">&gt;NAME</text>
-</package>
 <package name="L0603_S">
 <wire x1="0.1254" y1="-0.2" x2="0.1254" y2="0" width="0.1778" layer="21"/>
 <wire x1="0.1254" y1="0" x2="0.1254" y2="0.2" width="0.1778" layer="21"/>
@@ -1223,29 +1234,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0.1254" y1="0" x2="-0.1254" y2="0" width="0.1778" layer="21"/>
 <wire x1="-1.5776" y1="0.8534375" x2="-1.5776" y2="-0.85578125" width="0.1524" layer="21"/>
 <text x="0" y="0" size="0.6096" layer="51" font="vector" ratio="12" rot="R180" align="center">&gt;NAME</text>
-</package>
-<package name="JST-2-1MM-SMD_TOP">
-<wire x1="-2.15" y1="1.177" x2="2.15" y2="1.177" width="0.127" layer="51"/>
-<wire x1="-2.15" y1="-1.469" x2="-2.15" y2="1.177" width="0.127" layer="51"/>
-<wire x1="2.15" y1="-1.469" x2="2.15" y2="1.177" width="0.127" layer="51"/>
-<wire x1="-2.15" y1="-1.469" x2="2.15" y2="-1.469" width="0.127" layer="51"/>
-<wire x1="-1.007" y1="1.3368" x2="1.007" y2="1.3368" width="0.2032" layer="21"/>
-<circle x="-1.4" y="-2.092" radius="0.0762" width="0.4064" layer="21"/>
-<smd name="1" x="-0.5" y="-1.869" dx="0.6" dy="1.524" layer="1" rot="R180"/>
-<smd name="2" x="0.5" y="-1.869" dx="0.6" dy="1.524" layer="1" rot="R180"/>
-<smd name="NC2" x="1.8415" y="-0.127" dx="2.794" dy="1.143" layer="1" roundness="10" rot="R90" stop="no" cream="no"/>
-<smd name="NC1" x="-1.8415" y="-0.127" dx="2.794" dy="1.143" layer="1" roundness="10" rot="R90" stop="no" cream="no"/>
-<text x="0" y="0.508" size="0.6096" layer="25" font="vector" ratio="20" align="center">&gt;NAME</text>
-<wire x1="1.7" y1="-1.469" x2="1.7" y2="1.177" width="0.127" layer="48"/>
-<wire x1="-1.7" y1="-1.469" x2="-1.7" y2="1.177" width="0.127" layer="48"/>
-<wire x1="-1.6" y1="-1.469" x2="-1.6" y2="1.177" width="0.127" layer="48"/>
-<wire x1="1.6" y1="-1.469" x2="1.6" y2="1.177" width="0.127" layer="48"/>
-<rectangle x1="-2.032" y1="-1.4478" x2="-1.27" y2="1.1938" layer="29"/>
-<rectangle x1="-2.032" y1="-1.4478" x2="-1.27" y2="1.1938" layer="31"/>
-<rectangle x1="1.27" y1="-1.4478" x2="2.032" y2="1.1938" layer="29"/>
-<rectangle x1="1.27" y1="-1.4478" x2="2.032" y2="1.1938" layer="31"/>
-<wire x1="0.254" y1="-0.635" x2="0.762" y2="-0.635" width="0.127" layer="51"/>
-<wire x1="0.508" y1="-0.381" x2="0.508" y2="-0.889" width="0.127" layer="51"/>
 </package>
 <package name="USB-C_6P_SIDE">
 <wire x1="-1.6" y1="-9.65" x2="1.6" y2="-9.65" width="0.127" layer="51"/>
@@ -1413,6 +1401,105 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="1.6" y1="3.85" x2="1.6" y2="3.507" width="0.2032" layer="21"/>
 <smd name="SHLD0" x="-1.43" y="2.796" dx="0.127" dy="0.127" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
 </package>
+<package name="JST-2-1MM-SMD_TOP">
+<wire x1="-2.15" y1="1.177" x2="2.15" y2="1.177" width="0.127" layer="51"/>
+<wire x1="-2.15" y1="-1.469" x2="-2.15" y2="1.177" width="0.127" layer="51"/>
+<wire x1="2.15" y1="-1.469" x2="2.15" y2="1.177" width="0.127" layer="51"/>
+<wire x1="-2.15" y1="-1.469" x2="2.15" y2="-1.469" width="0.127" layer="51"/>
+<wire x1="-1.007" y1="1.3368" x2="1.007" y2="1.3368" width="0.2032" layer="21"/>
+<circle x="-1.4" y="-2.092" radius="0.0762" width="0.4064" layer="21"/>
+<smd name="1" x="-0.5" y="-1.869" dx="0.6" dy="1.524" layer="1" rot="R180"/>
+<smd name="2" x="0.5" y="-1.869" dx="0.6" dy="1.524" layer="1" rot="R180"/>
+<smd name="NC2" x="1.8415" y="-0.127" dx="2.794" dy="1.143" layer="1" roundness="10" rot="R90" stop="no" cream="no"/>
+<smd name="NC1" x="-1.8415" y="-0.127" dx="2.794" dy="1.143" layer="1" roundness="10" rot="R90" stop="no" cream="no"/>
+<text x="0" y="0.508" size="0.6096" layer="25" font="vector" ratio="20" align="center">&gt;NAME</text>
+<wire x1="1.7" y1="-1.469" x2="1.7" y2="1.177" width="0.127" layer="48"/>
+<wire x1="-1.7" y1="-1.469" x2="-1.7" y2="1.177" width="0.127" layer="48"/>
+<wire x1="-1.6" y1="-1.469" x2="-1.6" y2="1.177" width="0.127" layer="48"/>
+<wire x1="1.6" y1="-1.469" x2="1.6" y2="1.177" width="0.127" layer="48"/>
+<rectangle x1="-2.032" y1="-1.4478" x2="-1.27" y2="1.1938" layer="29"/>
+<rectangle x1="-2.032" y1="-1.4478" x2="-1.27" y2="1.1938" layer="31"/>
+<rectangle x1="1.27" y1="-1.4478" x2="2.032" y2="1.1938" layer="29"/>
+<rectangle x1="1.27" y1="-1.4478" x2="2.032" y2="1.1938" layer="31"/>
+<wire x1="0.254" y1="-0.635" x2="0.762" y2="-0.635" width="0.127" layer="51"/>
+<wire x1="0.508" y1="-0.381" x2="0.508" y2="-0.889" width="0.127" layer="51"/>
+<text x="1.2446" y="-1.0414" size="0.508" layer="51" rot="R90">RED</text>
+</package>
+<package name="JST-2-1.25MM_RIGHT">
+<pad name="1" x="0.625" y="0" drill="0.5" shape="long" rot="R90"/>
+<pad name="2" x="-0.625" y="0" drill="0.5" shape="long" rot="R270"/>
+<smd name="NA" x="0.625" y="-0.256" dx="0.127" dy="0.127" layer="1" rot="R270" stop="no" thermals="no" cream="no"/>
+<wire x1="2.125" y1="-4.192" x2="2.125" y2="0.508" width="0.2032" layer="21"/>
+<wire x1="2.125" y1="-4.192" x2="-2.125" y2="-4.192" width="0.2032" layer="21"/>
+<wire x1="-2.125" y1="-4.192" x2="-2.125" y2="0.508" width="0.2032" layer="21"/>
+<wire x1="-1.375" y1="0.508" x2="-2.125" y2="0.508" width="0.2032" layer="21"/>
+<wire x1="2.125" y1="0.508" x2="1.375" y2="0.508" width="0.2032" layer="21"/>
+<wire x1="-1.514" y1="1.27" x2="-2.276" y2="1.27" width="0.2286" layer="51"/>
+<wire x1="-1.895" y1="0.889" x2="-1.895" y2="1.651" width="0.2286" layer="51"/>
+<text x="-1.905" y="0.381" size="0.508" layer="51" rot="R270">RED</text>
+</package>
+<package name="GBA_BAT_PAD">
+<smd name="1" x="0" y="0" dx="3.8" dy="3.8" layer="1" roundness="25" rot="R90" stop="no" cream="no"/>
+<wire x1="-1.397" y1="2.159" x2="1.397" y2="2.159" width="0.254" layer="21"/>
+<wire x1="1.397" y1="2.159" x2="2.159" y2="1.397" width="0.254" layer="21" curve="-90"/>
+<wire x1="2.159" y1="1.397" x2="2.159" y2="-1.397" width="0.254" layer="21"/>
+<wire x1="2.159" y1="-1.397" x2="1.397" y2="-2.159" width="0.254" layer="21" curve="-90"/>
+<wire x1="1.397" y1="-2.159" x2="-1.397" y2="-2.159" width="0.254" layer="21"/>
+<wire x1="-1.397" y1="-2.159" x2="-2.159" y2="-1.397" width="0.254" layer="21" curve="-90"/>
+<wire x1="-2.159" y1="-1.397" x2="-2.159" y2="1.397" width="0.254" layer="21"/>
+<wire x1="-2.159" y1="1.397" x2="-1.397" y2="2.159" width="0.254" layer="21" curve="-90"/>
+<polygon width="0.127" layer="29">
+<vertex x="-1.6891" y="-0.8763"/>
+<vertex x="1.6891" y="-0.8763"/>
+<vertex x="1.6891" y="-1.6637"/>
+<vertex x="-1.6891" y="-1.6637"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="-1.3081" y="1.67005"/>
+<vertex x="1.3081" y="1.67005" curve="-180"/>
+<vertex x="1.3081" y="0.8255"/>
+<vertex x="-1.3081" y="0.8255" curve="-180"/>
+</polygon>
+</package>
+<package name="C0603">
+<smd name="1" x="-0.9008" y="0" dx="1" dy="1.1" layer="1"/>
+<smd name="2" x="0.9008" y="0" dx="1" dy="1.1" layer="1"/>
+<wire x1="-1.5748" y1="-0.7264375" x2="1.5776" y2="-0.7264375" width="0.1524" layer="21"/>
+<wire x1="1.5776" y1="-0.7264375" x2="1.5776" y2="0.72878125" width="0.1524" layer="21"/>
+<wire x1="1.5776" y1="0.72878125" x2="-1.5748" y2="0.72878125" width="0.1524" layer="21"/>
+<wire x1="-1.5748" y1="0.72878125" x2="-1.5748" y2="-0.7264375" width="0.1524" layer="21"/>
+<text x="0" y="0" size="0.6096" layer="51" font="vector" ratio="12" align="center">&gt;NAME</text>
+<wire x1="-1.5748" y1="-0.7264375" x2="1.5776" y2="-0.7264375" width="0.0508" layer="39"/>
+<wire x1="1.5776" y1="-0.7264375" x2="1.5776" y2="0.72878125" width="0.0508" layer="39"/>
+<wire x1="1.5776" y1="0.72878125" x2="-1.5748" y2="0.72878125" width="0.0508" layer="39"/>
+<wire x1="-1.5748" y1="0.72878125" x2="-1.5748" y2="-0.7264375" width="0.0508" layer="39"/>
+</package>
+<package name="C0805">
+<wire x1="-1.778" y1="-0.980440625" x2="1.780040625" y2="-0.980440625" width="0.1524" layer="21"/>
+<wire x1="1.780040625" y1="-0.980440625" x2="1.780040625" y2="0.976" width="0.1524" layer="21"/>
+<wire x1="1.780040625" y1="0.976" x2="-1.778" y2="0.976" width="0.1524" layer="21"/>
+<wire x1="-1.778" y1="0.976" x2="-1.778" y2="-0.980440625" width="0.1524" layer="21"/>
+<smd name="1" x="-1.05" y="0" dx="1.1" dy="1.6" layer="1"/>
+<smd name="2" x="1.05" y="0" dx="1.1" dy="1.6" layer="1"/>
+<text x="0" y="0" size="0.6096" layer="51" font="vector" ratio="12" align="center">&gt;NAME</text>
+<wire x1="-1.778" y1="-0.980440625" x2="1.780040625" y2="-0.980440625" width="0.0508" layer="39"/>
+<wire x1="1.780040625" y1="-0.980440625" x2="1.780040625" y2="0.976" width="0.0508" layer="39"/>
+<wire x1="1.780040625" y1="0.976" x2="-1.778" y2="0.976" width="0.0508" layer="39"/>
+<wire x1="-1.778" y1="0.976" x2="-1.778" y2="-0.980440625" width="0.0508" layer="39"/>
+</package>
+<package name="C0402">
+<wire x1="-1.2" y1="0.6246" x2="1.2" y2="0.6246" width="0.1524" layer="21"/>
+<wire x1="1.2" y1="0.6246" x2="1.2" y2="-0.6246" width="0.1524" layer="21"/>
+<wire x1="1.2" y1="-0.6246" x2="-1.2" y2="-0.6246" width="0.1524" layer="21"/>
+<wire x1="-1.2" y1="-0.6246" x2="-1.2" y2="0.6246" width="0.1524" layer="21"/>
+<smd name="1" x="-0.6943" y="0" dx="0.635" dy="0.9" layer="1"/>
+<smd name="2" x="0.6943" y="0" dx="0.635" dy="0.9" layer="1"/>
+<text x="0" y="0" size="0.6096" layer="51" font="vector" ratio="12" align="center">&gt;NAME</text>
+<wire x1="-1.2" y1="0.6246" x2="1.2" y2="0.6246" width="0.0508" layer="39"/>
+<wire x1="1.2" y1="0.6246" x2="1.2" y2="-0.6246" width="0.0508" layer="39"/>
+<wire x1="1.2" y1="-0.6246" x2="-1.2" y2="-0.6246" width="0.0508" layer="39"/>
+<wire x1="-1.2" y1="-0.6246" x2="-1.2" y2="0.6246" width="0.0508" layer="39"/>
+</package>
 </packages>
 <symbols>
 <symbol name="USB-C_POWER">
@@ -1456,7 +1543,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="1" x="5.08" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="2" x="5.08" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
-<symbol name="CONDENSADOR-CERAMICO">
+<symbol name="CAPACITOR">
 <wire x1="0" y1="2.54" x2="0" y2="2.032" width="0.1524" layer="94"/>
 <wire x1="0" y1="0" x2="0" y2="0.508" width="0.1524" layer="94"/>
 <text x="0.254" y="-1.524" size="1.778" layer="95">&gt;NAME</text>
@@ -1526,19 +1613,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 <symbol name="SOLDER_PAD">
 <pin name="P$1" x="0" y="0" visible="off" length="point"/>
-<wire x1="0" y1="0" x2="0" y2="2.286" width="0.254" layer="94"/>
-<circle x="0" y="3.556" radius="1.135921875" width="0.3556" layer="94"/>
-<wire x1="-1.016" y1="4.572" x2="1.016" y2="2.54" width="0.2032" layer="94"/>
-<wire x1="1.016" y1="4.572" x2="-1.016" y2="2.54" width="0.2032" layer="94"/>
-<text x="0" y="6.35" size="1.27" layer="96" align="center">&gt;VALUE</text>
+<text x="0" y="3.81" size="1.27" layer="96" align="center">&gt;VALUE</text>
+<wire x1="0" y1="0" x2="0" y2="0.9652" width="0.254" layer="94"/>
+<circle x="0" y="1.778" radius="0.762" width="0.2032" layer="94"/>
+<wire x1="-0.762" y1="2.54" x2="0.762" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="0.762" y1="2.54" x2="-0.762" y2="1.016" width="0.2032" layer="94"/>
 </symbol>
 <symbol name="PAD">
 <pin name="P$1" x="0" y="0" visible="off" length="point"/>
-<wire x1="0" y1="0" x2="0" y2="2.286" width="0.254" layer="94"/>
-<circle x="0" y="3.556" radius="1.135921875" width="0.3556" layer="94"/>
-<wire x1="-1.016" y1="4.572" x2="1.016" y2="2.54" width="0.2032" layer="94"/>
-<wire x1="1.016" y1="4.572" x2="-1.016" y2="2.54" width="0.2032" layer="94"/>
-<text x="0" y="6.35" size="1.27" layer="96" align="center">&gt;VALUE</text>
+<text x="0" y="3.81" size="1.27" layer="96" align="center">&gt;VALUE</text>
+<wire x1="0" y1="0" x2="0" y2="0.9652" width="0.254" layer="94"/>
+<circle x="0" y="1.778" radius="0.762" width="0.2032" layer="94"/>
+<wire x1="-0.762" y1="2.54" x2="0.762" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="0.762" y1="2.54" x2="-0.762" y2="1.016" width="0.2032" layer="94"/>
 </symbol>
 <symbol name="MT3608">
 <wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
@@ -1601,6 +1688,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="OUT+" x="12.7" y="20.32" length="short" direction="out" rot="R180"/>
 <text x="-10.16" y="25.4" size="1.27" layer="95">&gt;NAME</text>
 <text x="-10.16" y="23.495" size="1.27" layer="96">&gt;VALUE</text>
+<text x="-7.8486" y="-10.16" size="1.27" layer="97">LOW: POWER OFF</text>
 </symbol>
 <symbol name="MOSFET-N">
 <wire x1="0.762" y1="0.762" x2="0.762" y2="0" width="0.254" layer="94"/>
@@ -1625,12 +1713,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <circle x="2.54" y="2.54" radius="0.3592" width="0" layer="94"/>
 <text x="5.08" y="0.635" size="1.27" layer="95">&gt;NAME</text>
 <text x="5.08" y="-1.27" size="1.27" layer="96">&gt;VALUE</text>
-<text x="3.175" y="3.175" size="0.8128" layer="93">D</text>
-<text x="3.175" y="-3.81" size="0.8128" layer="93">S</text>
-<text x="-1.27" y="-1.905" size="0.8128" layer="93">G</text>
-<pin name="G" x="-2.54" y="-2.54" visible="pad" length="short"/>
-<pin name="S" x="2.54" y="-5.08" visible="pad" length="short" rot="R90"/>
-<pin name="D" x="2.54" y="5.08" visible="pad" length="short" rot="R270"/>
+<text x="3.175" y="3.175" size="0.8128" layer="97">D</text>
+<text x="3.175" y="-3.81" size="0.8128" layer="97">S</text>
+<text x="-1.27" y="-1.905" size="0.8128" layer="97">G</text>
+<pin name="G" x="-2.54" y="-2.54" visible="off" length="short"/>
+<pin name="S" x="2.54" y="-5.08" visible="off" length="short" direction="out" rot="R90"/>
+<pin name="D" x="2.54" y="5.08" visible="off" length="short" direction="in" rot="R270"/>
 <polygon width="0.1524" layer="94">
 <vertex x="3.81" y="0.508"/>
 <vertex x="3.302" y="-0.254"/>
@@ -1759,7 +1847,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <gate name="G$1" symbol="JST-2" x="0" y="0"/>
 </gates>
 <devices>
-<device name="1.25MM" package="JST-2-1.25MM-SMD_RIGHT">
+<device name="_SMD_1.25MM" package="JST-2-1.25MM-SMD_RIGHT">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1778,6 +1866,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </technologies>
 </device>
 <device name="1MM_TOP" package="JST-2-1MM-SMD_TOP">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_1.25MM" package="JST-2-1.25MM_RIGHT">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2009,11 +2106,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technology name=""/>
 </technologies>
 </device>
+<device name="_GBA" package="GBA_BAT_PAD">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="C0603" prefix="C">
 <gates>
-<gate name="G$1" symbol="CONDENSADOR-CERAMICO" x="0" y="0"/>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
 </gates>
 <devices>
 <device name="&quot;" package="C0603">
@@ -2038,7 +2143,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 <deviceset name="C0805" prefix="C">
 <gates>
-<gate name="G$1" symbol="CONDENSADOR-CERAMICO" x="0" y="0"/>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
 </gates>
 <devices>
 <device name="&quot;" package="C0805">
@@ -2379,7 +2484,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 <deviceset name="C0402" prefix="C">
 <gates>
-<gate name="G$1" symbol="CONDENSADOR-CERAMICO" x="0" y="0"/>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
 </gates>
 <devices>
 <device name="&quot;" package="C0402">
